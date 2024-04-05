@@ -17,17 +17,17 @@ import java.util.List;
 
         @GetMapping("/foundation-courses")
         public List<String> getFoundationCourses() {
-            return Arrays.asList("CSC 111F", "CSC 121F"); // Replace with actual foundation courses
+            return Arrays.asList("CSC 111F", "CSC 121F"); 
         }
 
         @GetMapping("/undergraduate-courses")
         public List<String> getUndergraduateCourses() {
-            return Arrays.asList("CSC 211", "CSC 213", "CSC 224"); // Replace with actual undergraduate courses
+            return Arrays.asList("CSC 211", "CSC 213", "CSC 224"); 
         }
 
         @GetMapping("/honors-courses")
         public List<String> getHonorsCourses() {
-            return Arrays.asList("CSC 511", "CSC 512", "CSC 522", "CSC 524"); // Replace with actual honors courses
+            return Arrays.asList("CSC 511", "CSC 512", "CSC 522", "CSC 524"); 
         }
     }
 
