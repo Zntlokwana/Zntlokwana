@@ -7,11 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Arrays;
 import java.util.List;
-
-
-
 @SpringBootApplication
 @RestController
+
     public class SpringAssignment1Application {
     public static void main(String[] args) {
         SpringApplication.run(SpringAssignment1Application.class, args);

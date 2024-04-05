@@ -1,18 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <!-- Meta information about the document -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Spring Boot App</title>
-    <!-- You can link CSS files here if needed -->
+    <title>Course Catalog</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-<!-- Main content for your webpage -->
-<h1>courses for CSC </h1>
-<a href="http://localhost:8080/undergraduate" target="_blank"><button>View Undergraduate Courses</button></a>
-<a href="http://localhost:8080/honours" target="_blank"><button>View Honours Courses</button></a>
-<a href="http://localhost:8080/foundation" target="_blank"><button>View Foundation Courses</button></a>
-<!-- Add more HTML elements as needed -->
+<div class="container">
+    <h1>Course Catalog</h1>
+    <h2>Foundation Courses</h2>
+    <ul>
+        <li>CSC 111F</li>
+        <li>CSC 121F</li>
+    </ul>
+
+    <h2>Undergraduate Courses</h2>
+    <ul>
+        <li>CSC 211</li>
+        <li>CSC 213</li>
+        <li>CSC 224</li>
+    </ul>
+
+    <h2>Honors Courses</h2>
+    <ul>
+        <li>CSC 511</li>
+        <li>CSC 512</li>
+        <li>CSC 522</li>
+        <li>CSC 524</li>
+    </ul>
+</div>
 </body>
 </html>
+
