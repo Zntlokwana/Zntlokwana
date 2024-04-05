@@ -29,7 +29,6 @@ import java.util.List;
         public List<String> getHonorsCourses() {
             return Arrays.asList("CSC 511", "CSC 512", "CSC 522", "CSC 524"); // Replace with actual honors courses
         }
-
     }
 
 
